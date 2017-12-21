@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "964790176748",
+    "firebase_url": "https://whereshouldieat-9389b.firebaseio.com",
+    "project_id": "whereshouldieat-9389b",
+    "storage_bucket": "whereshouldieat-9389b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964790176748:android:64cfcd284cc91821",
+        "android_client_info": {
+          "package_name": "com.carlisle.ben.whereshouldieat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964790176748-sdg1umr1f91o9n877beh6kb64852md6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carlisle.ben.whereshouldieat",
+            "certificate_hash": "1fcfa9c47a9b2a79265338ccae554815ee083b67"
+          }
+        },
+        {
+          "client_id": "964790176748-5mu3u4j0c35s9rt292opi99rsedh6cca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsHwo-SCYJ5hBvq7ACBcvZfLINkIP2pUw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964790176748-5mu3u4j0c35s9rt292opi99rsedh6cca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

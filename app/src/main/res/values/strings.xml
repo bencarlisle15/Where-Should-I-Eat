@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Where Should I Eat</string>
+    <string name="nointernet">"Sorry, Either Don't Be So Specific Or Check Your Internet Connection And Try Again :("</string>
+    <string name="loading">Loading…</string>
+    <string name="nameQuestion">Where Should I Eat?</string>
+    <string name="elif">Else</string>
+    <string name="closer">Closer</string>
+    <string name="classier">Classier</string>
+    <string name="i_m_looking_for_something">I\'m Looking For Something…</string>
+    <string name="cheaper">Cheaper</string>
+    <string name="permission">Location Permission is Required to Use this App</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="off">Turn Ads Off</string>
+    <string name="on">Turn Ads On</string>
+</resources>

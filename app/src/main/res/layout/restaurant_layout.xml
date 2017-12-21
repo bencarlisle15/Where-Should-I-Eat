@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Sample Title"
+        android:textSize="32sp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:text="Rating: 5 Stars"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating"
+        android:layout_centerHorizontal="true"
+        android:text="Price: 2/4"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price"
+        android:layout_centerHorizontal="true"
+        android:text="42 P Sherman Wallaby Way, Sydney, 02835"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:id="@+id/distance"
+        android:text="0.5 Miles Away"
+        android:layout_below="@id/address"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:id="@+id/website"
+        android:text="Website"
+        android:focusable="true"
+        android:clickable="true"
+        android:autoLink="web"
+        android:layout_below="@id/distance"
+        tools:ignore="HardcodedText"/>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/buttonbackground"
+            android:text="@string/elif"
+            android:onClick="changeParameter"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1"
+            android:background="@drawable/buttonbackground"
+            android:onClick="changeParameter"
+            android:textSize="14sp"
+            android:text="@string/cheaper"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/topButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonbackground"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/closer"
+            android:textColor="#FFFFFF"
+            android:onClick="changeParameter"
+            android:textSize="14dp"
+            tools:ignore="SpUsage"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/buttonbackground"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/classier"
+            android:textColor="#FFFFFF"
+            android:onClick="changeParameter"
+            android:textSize="14dp"
+            tools:ignore="SpUsage"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/topButtons"
+        android:text="@string/i_m_looking_for_something"
+        android:layout_margin="20dp"
+        android:textSize="24sp"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
